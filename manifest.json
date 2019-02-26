@@ -1,12 +1,7 @@
 {
-  "short_name": "Maps",
-  "name": "Google Maps",
+  "short_name": "Blog",
+  "name": "Blogger",
   "icons": [
-    {
-      "src": "https://1.bp.blogspot.com/-h1XvojMAvP4/XHTnEEopeyI/AAAAAAAADw0/2RCw7DdZDEY-xbkupDgJWhbmS9-N48UYACLcBGAs/s1600/icon-blogger-512.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
     {
       "src": "https://1.bp.blogspot.com/-h1XvojMAvP4/XHTnEEopeyI/AAAAAAAADw0/2RCw7DdZDEY-xbkupDgJWhbmS9-N48UYACLcBGAs/s1600/icon-blogger-512.png",
       "type": "image/png",
