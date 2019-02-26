@@ -3,12 +3,7 @@
   "name": "Blogger",
   "icons": [
     {
-      "src": "/images/icons-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/images/icons-512.png",
+      "src": "https://1.bp.blogspot.com/-h1XvojMAvP4/XHTnEEopeyI/AAAAAAAADw0/2RCw7DdZDEY-xbkupDgJWhbmS9-N48UYACLcBGAs/s1600/icon-blogger-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
