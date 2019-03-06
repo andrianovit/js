@@ -17,15 +17,6 @@ var related = (function(){
    
    function render( data ){
       var title = data.title.$t;
-      var content = data.content;
-      var summary = data.summary;
-      var body = content ? content.$t : summary.$t;
-      var snippet = (body).replace(/<[^>]*>?/g,'').substring( 0, defaults.snippet ) + '...';
-      var img = data.media$thumbnail;
-      var tempHtml = document.createElement('div');
-      tempHtml.innerHTML = body;
-      var imgHtml = tempHtml.querySelector('img');
-      var image = ( img ? img.url : (imgHtml ? imgHtml.src : defaults.image)).replace( /s\B\d{2,4}-c/, defaults.imgSize); 
       var url = (function(){
          for ( var i = 0; i < data.link.length; i++ ){
             var link = data.link[i];
@@ -34,14 +25,6 @@ var related = (function(){
             }
          }
       })();
-      var published = new Date( data.published.$t ).toLocaleDateString(
-         'es-ES',
-         {
-            year:'numeric',
-            month:'long',
-            day: 'numeric'
-         }
-      );
       return (
          '<li>'+ '<a href="' + url + '" class="related-post-link">'+ title + '</a>'+ '</li>'
       );
